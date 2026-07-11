@@ -1,0 +1,17 @@
+{
+  "series_name": "Telegram_video_downloader",
+  "videos_dir": "",
+  "pasta_transcricoes": "",
+  "pasta_analises": "",
+  "arquivo_final": "",
+  "arquivo_log": "",
+  "whisper_model": "medium",
+  "whisper_language": "pt",
+  "whisper_device": "cpu",
+  "whisper_compute": "int8",
+  "lms_model_id": "unsloth/Phi-4-mini-instruct-GGUF",
+  "lms_model_quant": "q4_k_m",
+  "lms_port": 1234,
+  "chunk_minutes": 20,
+  "max_tokens": 2048
+}

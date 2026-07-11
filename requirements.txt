@@ -1,0 +1,14 @@
+# Context Builder — dependências Python
+# Instale em dois comandos separados:
+#
+#   pip install -r requirements.txt
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+faster-whisper>=1.0.0
+openai>=1.0.0
+
+# torch deve ser instalado separadamente com o índice CUDA:
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+#
+# Se quiser rodar só em CPU (sem GPU), o torch padrão funciona:
+# pip install torch
