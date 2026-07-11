@@ -24,7 +24,7 @@ GPU NVIDIA é opcional — o programa roda em CPU com quantização int8, porém
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/context-builder.git
+git clone https://github.com/Luckstax/telegram_video_downloader.git
 cd context-builder
 
 # 2. Instale as dependências
