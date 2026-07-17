@@ -28,7 +28,7 @@ from tkinter import ttk, filedialog, messagebox
 CONFIG_FILE = Path(__file__).parent / "config.json"
 
 DEFAULT_CONFIG = {
-    "series_name":        "Miraculous: As Aventuras de Ladybug",
+    "series_name":        "",
     "videos_dir":         "",
     "pasta_transcricoes": "",
     "pasta_analises":     "",
