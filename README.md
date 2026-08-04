@@ -1,4 +1,4 @@
-# 🐞 Context Builder
+#  Context Builder
 
 Pipeline para geração de contexto estruturado a partir de episódios de séries animadas dubladas, com interface gráfica. Desenvolvido para auxiliar na criação de legendas localizadas usando IA.
 
@@ -24,7 +24,7 @@ GPU NVIDIA é opcional — o programa roda em CPU com quantização int8, porém
 
 ```bash
 # 1. Clone o repositório
-git clone <URL-do-seu-repositório>
+git clone https://github.com/Luckstax/context_builder.git
 cd context-builder
 
 # 2. Instale as dependências
@@ -98,8 +98,6 @@ context_builder/
   config.example.json           # modelo de configuração (vai pro Git)
   config.json                   # sua configuração real (gitignored, criada a partir do example)
 ```
-
-Assim como no `Diario_IA`, os módulos sempre fazem `import config` e acessam `config.cfg(...)` (nunca `from config import CONFIG`), porque `load_config()` reatribui o dicionário inteiro — um import direto do nome antes disso rodar ficaria apontando para o dicionário vazio antigo.
 
 O LM Studio é iniciado automaticamente pelo programa quando necessário.
 
