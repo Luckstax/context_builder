@@ -1,0 +1,18 @@
+{
+  "series_name": "Nome da série",
+  "videos_dir": "",
+  "pasta_transcricoes": "",
+  "pasta_analises": "",
+  "arquivo_final": "",
+  "arquivo_log": "",
+  "whisper_model": "medium",
+  "whisper_language": "pt",
+  "whisper_device": "cpu",
+  "whisper_compute": "int8",
+  "lms_model_id": "qwen2.5-7b-instruct",
+  "lms_model_quant": "",
+  "lms_port": 1234,
+  "lms_context_length": 8192,
+  "chunk_minutes": 8,
+  "max_tokens": 2048
+}

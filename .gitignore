@@ -1,0 +1,8 @@
+# Config real do usuário (paths pessoais) — nunca commitar.
+# Use config.example.json como referência e copie para config.json.
+config.json
+
+__pycache__/
+*.pyc
+.venv/
+venv/
